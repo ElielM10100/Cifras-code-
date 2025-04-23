@@ -1,0 +1,60 @@
+{
+  "expo": {
+    "name": "Sabedoria Divina",
+    "slug": "millennium",
+    "version": "1.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.millenniumtech.biblIA",
+      "newArchEnabled": false,
+      "versionCode": 10,
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "WRITE_EXTERNAL_STORAGE",
+        "READ_EXTERNAL_STORAGE"
+      ]
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.millenniumtech.biblIA",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Este aplicativo precisa de acesso ao microfone para que você possa enviar e receber mensagens de áudio no chat.",
+
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "e58abe2b-5e44-4e17-8c2b-4105e894e560"
+      }
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "userInterfaceStyle": "light",
+    "platforms": [
+      "android",
+      "ios"
+    ],
+    "scheme": "sabedoria-divina",
+    "plugins": [],
+    "newArchEnabled": true
+  }
+}
